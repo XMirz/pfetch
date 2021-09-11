@@ -6,7 +6,7 @@
 
 The goal of this project is to implement a simple system
 information tool in POSIX `sh` using features built into
-the language itself (*where possible*).
+the language itself (_where possible_).
 
 The source code is highly documented and I hope it will
 act as a learning resource for POSIX `sh` and simple
@@ -26,13 +26,13 @@ picture"!
 ## OS support
 
 - **Linux**
-    - Alpine Linux, Arch Linux, Arco Linux, Artix Linux, CentOS, Dahlia, Debian, Elementary, Fedora, Gentoo, Guix, Hyperbola, instantOS, KISS Linux, Linux Lite, Linux Mint, Mageia, Manjaro, MX Linux, NixOS, OpenSUSE, Parabola, Pop!\_OS, PureOS, Slackware, Ubuntu and Void Linux.
-    - All other distributions are supported with a generic penguin logo.
+  - Alpine Linux, Arch Linux, Arco Linux, Artix Linux, CentOS, Dahlia, Debian, Elementary, Fedora, Gentoo, Guix, Hyperbola, instantOS, KISS Linux, Linux Lite, Linux Mint, Mageia, Manjaro, MX Linux, NixOS, OpenSUSE, Parabola, Pop!\_OS, PureOS, Slackware, Ubuntu and Void Linux.
+  - All other distributions are supported with a generic penguin logo.
 - **Android**
 - **BSD**
-    - DragonflyBSD, FreeBSD, NetBSD and OpenBSD.
+  - DragonflyBSD, FreeBSD, NetBSD and OpenBSD.
 - **Windows**
-    - Windows subsystem for Linux.
+  - Windows subsystem for Linux.
 - **Haiku**
 - **MacOS**
 - **Minix**
@@ -89,6 +89,23 @@ PF_COL2=7
 # Valid: 0-9
 PF_COL3=1
 
+# Color of title data:
+# Default: unset (auto)
+# Valid: 0-9
+PF_COL_USER=1
+
+# Color of title data:
+# Default: unset (auto)
+# Valid: 0-9
+PF_COL_AT=1
+
+# Color of title data:
+# Default: unset (auto)
+# Valid: 0-9
+PF_COL_HOST=1
+
+
+
 # Alignment padding.
 # Default: unset (auto)
 # Valid: int
@@ -123,4 +140,4 @@ XDG_CURRENT_DESKTOP=""
 ## Credit
 
 - [ufetch](https://gitlab.com/jschx/ufetch): Lots of ASCII logos.
-    - Contrary to the belief of a certain youtuber, `pfetch` shares **zero** code with `ufetch`. Only some of the ASCII logos were used.
+  - Contrary to the belief of a certain youtuber, `pfetch` shares **zero** code with `ufetch`. Only some of the ASCII logos were used.
