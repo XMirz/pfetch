@@ -1840,7 +1840,8 @@ EOF
     # Disable warning about unused variables.
     # shellcheck disable=2034
     for _c in c1 c2 c3 c4 c5 c6 c7 c8; do
-        esc SGR "3${_c#?}" 0
+        # esc SGR "3${_c#?}" 0
+        esc SGR "3${PF_COL_ASCII:-1}"
         export "$_c=$e"
     done
 
